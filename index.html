@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Directorio de Contacto</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.17.0/xlsx.full.min.js"></script>
+    
+    <!-- Otros metadatos como título y enlaces de CSS -->
+    <link rel="icon" href="img/icono.png" type="image/x-icon">
+
+</head>
+<body>
+
+    <!-- Animación de carga -->
+    <div id="loading">
+        <div class="loading-content">
+            <img src="img/cargando.png" alt="Cargando" id="loading-img">
+        </div>
+    </div>
+
+    <!-- Cabecera -->
+    <header>
+        <div class="logo">
+            <img src="img/logo.png" alt="Logo">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#">Inicio</a></li>
+                <li><a href="#" id="support-btn">Soporte</a></li> <!-- Botón de soporte -->
+            </ul>
+        </nav>
+    </header>
+    
+      <!-- Modal para soporte -->
+    <div id="support-modal" class="modalxrt">
+        <div class="modalxrt-content">
+            <span class="close">&times;</span>
+            <h2>Contacto</h2>
+            <p>Nombre: Ing.Miguel Angel Villegas Arellanos </p>
+            <p>Correo: miguel.villegas@funcionpublica.gob.mx</p>
+            <p>Teléfono: 55 2000 3000 Ext.1139</p>
+        </div>
+    </div>
+
+    <!-- Buscador -->
+    <div class="search-container">
+        <input type="text" id="search-input" placeholder="Buscar por nombre, unidad adscrita, puesto...">
+        <button onclick="search()">Buscar</button>
+    </div>
+
+    <!-- Botón de descarga en Excel -->
+    <div class="excel-button-container">
+        <button id="excel-button">
+            <img src="img/excel.png" alt="Excel Icon"> Descargar en Excel
+        </button>
+    </div>
+
+    <!-- Tabla del directorio -->
+    <div class="table-container">
+        <table id="directory-table">
+            <thead>
+                <tr>
+                     <th style="width: 2%;">ID <img src="img/negocio.png" alt="ID Icon" class="icon-size"></th>
+                <th style="width: 20%;">Nombre del Funcionario <img src="img/empleados.png" alt="User Icon" class="icon-size"></th>
+                <th style="width: 30%;">Unidad Adscrita <img src="img/puesto.png" alt="Unit Icon" class="icon-size"></th>
+                <th style="width: 30%;">Puesto <img src="img/escritorio.png" alt="Position Icon" class="icon-size"></th>
+                <th style="width: 27%;">Correo Institucional <img src="img/outlook.png" alt="Email Icon" class="icon-size"></th>
+                <th style="width: 35%;">Extensión <img src="img/telefonica.png" alt="Phone Icon" class="icon-size"></th>
+                </tr>
+            </thead>
+            <tbody>
+                <!-- Filas con datos precargados -->
+            </tbody>
+        </table>
+        <!-- Paginación -->
+        <div class="pagination">
+            <button id="prev-btn">Anterior</button>
+            <span id="pagination-info">Mostrando 1-7 de 50 resultados</span>
+            <button id="next-btn">Siguiente</button>
+        </div>
+    </div>
+<br>
+    <br>
+    <br>
+    <br>
+    <!-- Footer -->
+    <footer>
+        <p>© Derechos reservados Ing. Miguel Angel Villegas 2024</p>
+        <img src="img/logo.png" alt="Footer Logo" id="footer-img">
+        
+    </footer>
+    <!-- Imagen decorativa debajo del footer -->
+<img src="img/footer.PNG" alt="Decoración" class="footer-image">
+    
+
+</body>
+</html>

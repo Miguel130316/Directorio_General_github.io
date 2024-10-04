@@ -1,0 +1,331 @@
+
+/* Reseteo de márgenes y rellenos */
+
+body {
+    margin: 0;
+    padding: 0;
+    padding: 0;
+    font-family: 'Geomanist Medium', sans-serif; /* Utiliza Montserrat como fuente principal */
+    font-weight: 500; /* Semi-Bold */
+    font-size: 16px; /* Ajusta el tamaño de la fuente según tus preferencias */
+}
+
+
+    /* Modal */
+        .modalxrt {
+            display: none;
+            position: fixed;
+            z-index: 1001;
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            overflow: auto;
+            background-color: rgba(0, 0, 0, 0.5); /* Fondo transparente */
+        }
+
+        .modalxrt-content {
+            background-color: white;
+            margin: 10% auto;
+            padding: 20px;
+            border: 1px solid #888;
+            width: 60%;
+            border-radius: 8px;
+            position: relative;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+
+        /* Botón para cerrar */
+        .close {
+            position: absolute;
+            right: 15px;
+            top: 15px;
+            font-size: 24px;
+            font-weight: bold;
+            color: #aaa;
+            cursor: pointer;
+        }
+
+        .close:hover,
+        .close:focus {
+            color: black;
+        }
+
+        /* Contenido del modal */
+        .modalxrt-content h2 {
+            margin-top: 0;
+        }
+
+        .modalxrt-content p {
+            margin-bottom: 10px;
+        }
+
+        /* Botón agregar */
+        .modalxrt-content .btn-add-record {
+            background-color: #1AAB8A;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            cursor: pointer;
+            transition: 0.3s;
+        }
+
+        .modalxrt-content .btn-add-record:hover {
+            background-color: #17a283;
+        }
+
+
+/* Animación de carga */
+#loading {
+    position: fixed;
+    top: 0; /* Asegúrate de que el área de carga esté en la parte superior */
+    left: 0; /* Asegúrate de que esté alineado a la izquierda */
+    width: 100%;
+    height: 100vh; /* Cambia a 100vh para cubrir toda la altura de la ventana */
+    background: rgba(0, 0, 0, 0.8);
+    z-index: 9999;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.loading-content img {
+    width: 150px;
+}
+
+
+
+/* Cabecera */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-sizing: border-box;
+    padding: 10px 20px;
+    position: fixed;
+     width: 100%; /* Asegura que la cabecera ocupe todo el ancho de la página */
+   top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+    background-color: #611232; /* Color vino */
+    color: white;
+    
+    
+   
+}
+
+header .logo img {
+    width: 250px;
+}
+
+.logo img {
+    filter: brightness(0) invert(1); /* Convierte a blanco */
+}
+
+
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 5px 10px;
+}
+
+nav ul li a:hover {
+    border-bottom: 2px solid white;
+}
+
+/* Buscador */
+.search-container {
+    margin-top: 100px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#search-input {
+    padding: 10px;
+    width: 300px;
+}
+
+button {
+    padding: 10px;
+    background-color: #611232;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 50px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3); /* Sombra 3D para la tabla */
+}
+
+button:hover {
+    background-color: #A52A2A;
+}
+
+/* Tabla */
+.table-container {
+    margin: 20px auto;
+    width: 90%;
+    max-width: 1200px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3); /* Sombra 3D para la tabla */
+
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    text-align: left;
+}
+
+thead th {
+    background-color: #a57f2c;
+    color: white;
+    padding: 10px;
+}
+
+tbody td {
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+}
+
+tbody tr:hover {
+    background-color: #f1f1f1;
+}
+
+
+
+/* Ajustar el tamaño de las columnas */
+.table-container {
+    grid-template-columns: 30% 70% 15% 25% 10%; /* Ajusta los tamaños de las columnas como desees */
+}
+
+/* Paginación */
+.pagination {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+    
+}
+
+#pagination-info {
+    margin: 0 10px;
+}
+
+/* Footer */
+footer {
+      margin: 0; /* Elimina márgenes del footer */
+    background-color: #611232;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    position: relative; /* Cambiar de fixed a relative */
+    bottom: 0;
+    left: 0;
+    width: 100%; /* Se asegura que ocupe todo el ancho */
+    z-index: 1000;
+    box-sizing: border-box;
+    
+    overflow: hidden; /* Opcional para evitar desbordamientos */
+}
+
+footer p {
+    margin: 10px 0;
+    font-size: 14px;
+}
+
+
+/* Tamaño de la imagen del footer */
+#footer-img {
+    width: 200px; /* Cambia el valor según el tamaño deseado */
+    height: auto; /* Mantiene la proporción de la imagen */
+    margin-top: 10px; /* Espacio entre el texto y la imagen */
+    filter: brightness(0) invert(1); /* Convierte a blanco */
+}
+
+/* Imagen decorativa */
+.footer-image {
+    display: block;
+    max-width: 100%; /* Asegúrate de que la imagen no exceda el ancho del contenedor */
+    height: auto; /* Mantiene la proporción de la imagen */
+    margin: 0; /* Asegúrate de que no haya márgenes entre la imagen y el footer */
+    padding: 0; /* Asegúrate de que no haya rellenos */
+    
+}
+
+/* Box sizing universal */
+* {
+    box-sizing: border-box; /* Asegúrate de que todos los elementos usen el box model correcto */
+}
+
+
+/* Tamaño de los iconos en la tabla */
+.icon-size {
+    width: 25px; /* Cambia el valor según el tamaño que desees */
+    height: auto; /* Mantener la proporción de la imagen */
+    vertical-align: middle; /* Alinea la imagen con el texto */
+    margin-left: 5px; /* Espacio entre el texto y la imagen */
+}
+
+
+    /* Tamaño del ícono de Excel */
+    .excel-button-container img {
+        width: 32px; /* Cambia el valor según el tamaño deseado */
+        height: 32px; /* Cambia el valor según el tamaño deseado */
+        vertical-align: middle; /* Alinea el ícono con el texto del botón */
+    }
+
+        /* Botón de Excel */
+        .excel-button-container {
+            text-align: right;
+            margin: 0 5% 20px 0;
+        }
+
+        #excel-button {
+            background: #611232; /* Color de fondo */
+            color: #fff; /* Color del texto */
+            border: none; /* Sin borde */
+            position: relative; /* Posición relativa para el efecto */
+            height: 60px; /* Altura del botón */
+            font-size: 1em; /* Tamaño de fuente */
+            padding: 0 2em; /* Relleno horizontal */
+            cursor: pointer; /* Cambia el cursor al pasar sobre el botón */
+            transition: 800ms ease all; /* Transición suave */
+            outline: none; /* Sin contorno */
+            border-radius: 50px;
+        }
+
+        #excel-button:hover {
+            background: #fff; /* Color de fondo al pasar el cursor */
+            color: #611232; /* Color del texto al pasar el cursor */
+        }
+
+        #excel-button:before,
+        #excel-button:after {
+            content: ''; /* Crea un contenido vacío */
+            position: absolute; /* Posición absoluta para el efecto */
+            top: 0; /* Alineación superior */
+            right: 0; /* Alineación derecha */
+            height: 2px; /* Altura de la línea */
+            width: 0; /* Ancho inicial */
+            background: #611232; /* Color de la línea */
+            transition: 400ms ease all; /* Transición suave */
+        }
+
+        #excel-button:after {
+            right: inherit; /* Hereda la alineación derecha */
+            top: inherit; /* Hereda la alineación superior */
+            left: 0; /* Alineación izquierda */
+            bottom: 0; /* Alineación inferior */
+        }
+
+        #excel-button:hover:before,
+        #excel-button:hover:after {
+            width: 50%; /* Ancho completo al pasar el cursor */
+            transition: 800ms ease all; /* Transición suave */
+            border-radius: 50px;
+        }
