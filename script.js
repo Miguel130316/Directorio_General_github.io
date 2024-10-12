@@ -146,7 +146,7 @@ document.addEventListener("DOMContentLoaded", function() {
         
         { id: 50, nombre: 'Brenda Grisselle Zatarain Ramírez', unidad: 'DIRECCIÓN GENERAL DE TRANSPARENCIA Y GOBIERNO ABIERTO', puesto: 'Jefa de Departamento', correo: 'brenda.zatarain', extension: '1192' },
         
-        { id: 51 nombre: 'Lethzae Guadalupe Rojas Anievas', unidad: 'DIRECCIÓN GENERAL DE TRANSPARENCIA Y GOBIERNO ABIERTO', puesto: 'Subdirectora de área', correo: 'lethzae.rojas', extension: '1441' },
+        { id: 51, nombre: 'Lethzae Guadalupe Rojas Anievas', unidad: 'DIRECCIÓN GENERAL DE TRANSPARENCIA Y GOBIERNO ABIERTO', puesto: 'Subdirectora de área', correo: 'lethzae.rojas', extension: '1441' },
         
         { id: 52, nombre: 'Cristina Begné Guerra', unidad: 'DIRECCIÓN GENERAL DE TRANSPARENCIA Y GOBIERNO ABIERTO', puesto: 'Subdirectora de área', correo: 'cristina.begne', extension: '1451' },
         
