@@ -28,11 +28,7 @@ document.addEventListener("DOMContentLoaded", function() {
             });
 
     // Datos precargados
-    
-     // UNIDAD DE POLÍTICAS ANTICORRUPCIÓN
-    
-    
-    const data = [
+   const data = [
         { id: 1, nombre: 'Irais Graciela Barreto Canales', unidad: 'UNIDAD DE POLÍTICAS ANTICORRUPCIÓN', puesto: 'Jefa de la Unidad', correo: 'irais.barreto', extension: 'PENDIENTE' },
         
         { id: 2, nombre: 'Pedro Palacios Fernández', unidad: 'UNIDAD DE POLÍTICAS ANTICORRUPCIÓN', puesto: 'PENDIENTE', correo: 'pedro.palacios', extension: 'PENDIENTE' },
@@ -272,33 +268,4 @@ document.addEventListener("DOMContentLoaded", function() {
         XLSX.writeFile(wb, "directorio_contactos.xlsx");
     });
 });
-    
-    
 
-    // Funcionalidad de paginación
-    document.getElementById('prev-btn').addEventListener('click', function() {
-        if (currentPage > 1) {
-            currentPage--;
-            displayData(currentPage);
-        }
-    });
-
-    document.getElementById('next-btn').addEventListener('click', function() {
-        if (currentPage < Math.ceil(data.length / rowsPerPage)) {
-            currentPage++;
-            displayData(currentPage);
-        }
-    });
-    
-   
-
-    // Mostrar los datos al cargar la página
-    displayData(currentPage);
-
-    // Función para descargar el archivo en formato Excel
-    document.getElementById('excel-button').addEventListener('click', function() {
-        let table = document.getElementById("directory-table");
-        let wb = XLSX.utils.table_to_book(table);
-        XLSX.writeFile(wb, "directorio_contactos.xlsx");
-    });
-});
