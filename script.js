@@ -87,91 +87,91 @@ document.addEventListener("DOMContentLoaded", function() {
         
         { id: 27, nombre: 'Dulce María Aguilar Olvera', unidad: 'DIRECCIÓN GENERAL DE VINCULACIÓN NACIONAL E INTERNACIONAL', puesto: 'Subdirectora de Seguimiento a Políticas del SNA A ', correo: 'dulce.aguilar', extension: '1180' },
         
-        { id: 23, nombre: 'Fernando Sánchez Valdespino', unidad: 'DIRECCIÓN GENERAL DE VINCULACIÓN NACIONAL E INTERNACIONAL', puesto: 'Subdirector de Seguimiento a Políticas del SNA C', correo: 'fernando.escandon', extension: '1553' },
+        { id: 28, nombre: 'Fernando Sánchez Valdespino', unidad: 'DIRECCIÓN GENERAL DE VINCULACIÓN NACIONAL E INTERNACIONAL', puesto: 'Subdirector de Seguimiento a Políticas del SNA C', correo: 'fernando.escandon', extension: '1553' },
         
-        { id: 28, nombre: 'Abigail Itandehui Vázquez López', unidad: 'DIRECCIÓN GENERAL DE VINCULACIÓN NACIONAL E INTERNACIONAL', puesto: 'Subdirectora de Seguimiento a Políticas del SNF A', correo: 'abigail.vazquez', extension: '1339' },
+        { id: 29, nombre: 'Abigail Itandehui Vázquez López', unidad: 'DIRECCIÓN GENERAL DE VINCULACIÓN NACIONAL E INTERNACIONAL', puesto: 'Subdirectora de Seguimiento a Políticas del SNF A', correo: 'abigail.vazquez', extension: '1339' },
         
-        { id: 29, nombre: 'Francisco Javier Carmona Villagómez', unidad: 'DIRECCIÓN GENERAL DE VINCULACIÓN NACIONAL E INTERNACIONAL', puesto: 'Subdirector de Seguimiento a Políticas del SNF B', correo: 'francisco.carmona', extension: '1568' },
+        { id: 30, nombre: 'Francisco Javier Carmona Villagómez', unidad: 'DIRECCIÓN GENERAL DE VINCULACIÓN NACIONAL E INTERNACIONAL', puesto: 'Subdirector de Seguimiento a Políticas del SNF B', correo: 'francisco.carmona', extension: '1568' },
         
-        { id: 30, nombre: 'Leticia Gabriela Bernal Díaz', unidad: 'DIRECCIÓN GENERAL DE VINCULACIÓN NACIONAL E INTERNACIONAL', puesto: 'Secretaria', correo: 'lbernal', extension: '1031' },
+        { id: 31, nombre: 'Leticia Gabriela Bernal Díaz', unidad: 'DIRECCIÓN GENERAL DE VINCULACIÓN NACIONAL E INTERNACIONAL', puesto: 'Secretaria', correo: 'lbernal', extension: '1031' },
         
-        { id: 31, nombre: 'Juan Francisco Elizalde Morales', unidad: 'DIRECCIÓN GENERAL DE VINCULACIÓN NACIONAL E INTERNACIONAL', puesto: 'Subdirector de Vinculación y Cooperación Internacional', correo: 'juan.elizalde', extension: '1544' },
+        { id: 32, nombre: 'Juan Francisco Elizalde Morales', unidad: 'DIRECCIÓN GENERAL DE VINCULACIÓN NACIONAL E INTERNACIONAL', puesto: 'Subdirector de Vinculación y Cooperación Internacional', correo: 'juan.elizalde', extension: '1544' },
         
         
         // DIRECCIÓN GENERAL DE TRANSPARENCIA Y GOBIERNO ABIERTO
         
-        { id: 32, nombre: 'Grethel Alejandra Pilgram Santos', unidad: 'DIRECCIÓN GENERAL DE TRANSPARENCIA Y GOBIERNO ABIERTO', puesto: 'Directora General de Transparencia y Gobierno Abierto', correo: 'grethel.pilgram', extension: '1052' },
+        { id: 33, nombre: 'Grethel Alejandra Pilgram Santos', unidad: 'DIRECCIÓN GENERAL DE TRANSPARENCIA Y GOBIERNO ABIERTO', puesto: 'Directora General de Transparencia y Gobierno Abierto', correo: 'grethel.pilgram', extension: '1052' },
         
-        { id: 33, nombre: 'Fermín Hildebrando García Leal', unidad: 'DIRECCIÓN GENERAL DE TRANSPARENCIA Y GOBIERNO ABIERTO', puesto: 'Director de Acceso a la Información', correo: 'fermin.vargas', extension: '1174' },
+        { id: 34, nombre: 'Fermín Hildebrando García Leal', unidad: 'DIRECCIÓN GENERAL DE TRANSPARENCIA Y GOBIERNO ABIERTO', puesto: 'Director de Acceso a la Información', correo: 'fermin.vargas', extension: '1174' },
         
-        { id: 34, nombre: 'Irving Manchinelly Mota', unidad: 'DIRECCIÓN GENERAL DE TRANSPARENCIA Y GOBIERNO ABIERTO', puesto: 'Director de Protección de Datos Personales', correo: 'rving.manchinelly', extension: '1433' },
+        { id: 35, nombre: 'Irving Manchinelly Mota', unidad: 'DIRECCIÓN GENERAL DE TRANSPARENCIA Y GOBIERNO ABIERTO', puesto: 'Director de Protección de Datos Personales', correo: 'rving.manchinelly', extension: '1433' },
         
-        { id: 34, nombre: 'Luis Antonio Guillén Quintero', unidad: 'DIRECCIÓN GENERAL DE TRANSPARENCIA Y GOBIERNO ABIERTO', puesto: 'Director de Acciones de Transparencia en la Gestión Pública', correo: 'luis.guillen', extension: '1228' },
+        { id: 36, nombre: 'Luis Antonio Guillén Quintero', unidad: 'DIRECCIÓN GENERAL DE TRANSPARENCIA Y GOBIERNO ABIERTO', puesto: 'Director de Acciones de Transparencia en la Gestión Pública', correo: 'luis.guillen', extension: '1228' },
         
-        { id: 35, nombre: 'Arturo Jaime Magallanes', unidad: 'DIRECCIÓN GENERAL DE TRANSPARENCIA Y GOBIERNO ABIERTO', puesto: 'Director de Datos Abiertos', correo: 'arturo.jaime', extension: '1080' },
+        { id: 37, nombre: 'Arturo Jaime Magallanes', unidad: 'DIRECCIÓN GENERAL DE TRANSPARENCIA Y GOBIERNO ABIERTO', puesto: 'Director de Datos Abiertos', correo: 'arturo.jaime', extension: '1080' },
         
-        { id: 36, nombre: 'Eduardo Vargas Ortiz', unidad: 'DIRECCIÓN GENERAL DE TRANSPARENCIA Y GOBIERNO ABIERTO', puesto: 'Director de Gobierno Abierto y Obligaciones de Transparencia', correo: 'evargas', extension: '1023' },
+        { id: 38, nombre: 'Eduardo Vargas Ortiz', unidad: 'DIRECCIÓN GENERAL DE TRANSPARENCIA Y GOBIERNO ABIERTO', puesto: 'Director de Gobierno Abierto y Obligaciones de Transparencia', correo: 'evargas', extension: '1023' },
         
-        { id: 37, nombre: 'Andrea Mondragón Reyes', unidad: 'DIRECCIÓN GENERAL DE TRANSPARENCIA Y GOBIERNO ABIERTO', puesto: 'Subdirectora de Gobierno Abierto y Obligaciones de Transparencia', correo: 'andrea.mondragon', extension: '1523' },
+        { id: 39, nombre: 'Andrea Mondragón Reyes', unidad: 'DIRECCIÓN GENERAL DE TRANSPARENCIA Y GOBIERNO ABIERTO', puesto: 'Subdirectora de Gobierno Abierto y Obligaciones de Transparencia', correo: 'andrea.mondragon', extension: '1523' },
         
-        { id: 38, nombre: 'Karina Pérez Cortes', unidad: 'DIRECCIÓN GENERAL DE TRANSPARENCIA Y GOBIERNO ABIERTO', puesto: 'Subdirectora de Protección de Datos Personales', correo: 'karina.perez', extension: '1276' },
+        { id: 40, nombre: 'Karina Pérez Cortes', unidad: 'DIRECCIÓN GENERAL DE TRANSPARENCIA Y GOBIERNO ABIERTO', puesto: 'Subdirectora de Protección de Datos Personales', correo: 'karina.perez', extension: '1276' },
         
-        { id: 39, nombre: 'Erika Torres Godínez', unidad: 'DIRECCIÓN GENERAL DE TRANSPARENCIA Y GOBIERNO ABIERTO', puesto: 'Subdirectora de Gobierno Abierto y Obligaciones de Transparencia', correo: 'erika.torres', extension: '1385' },
+        { id: 41, nombre: 'Erika Torres Godínez', unidad: 'DIRECCIÓN GENERAL DE TRANSPARENCIA Y GOBIERNO ABIERTO', puesto: 'Subdirectora de Gobierno Abierto y Obligaciones de Transparencia', correo: 'erika.torres', extension: '1385' },
         
-        { id: 40, nombre: 'Fernando Escandón Yuso', unidad: 'DIRECCIÓN GENERAL DE TRANSPARENCIA Y GOBIERNO ABIERTO', puesto: 'Subdirector de Acceso a la Información', correo: 'fernando.escandon', extension: '1553' },
+        { id: 42, nombre: 'Fernando Escandón Yuso', unidad: 'DIRECCIÓN GENERAL DE TRANSPARENCIA Y GOBIERNO ABIERTO', puesto: 'Subdirector de Acceso a la Información', correo: 'fernando.escandon', extension: '1553' },
         
-        { id: 41, nombre: 'Andrea Michelle Delgado Rodríguez', unidad: 'DIRECCIÓN GENERAL DE TRANSPARENCIA Y GOBIERNO ABIERTO', puesto: 'Jefa de Departamento de Acceso a la Información ', correo: 'andrea.delgado', extension: '1384' },
-        
-        
-        { id: 42, nombre: 'Alejandra Reyes Salas', unidad: 'DIRECCIÓN GENERAL DE TRANSPARENCIA Y GOBIERNO ABIERTO', puesto: 'alejandra.salas', correo: 'karina.perez', extension: '1581' },
+        { id: 43, nombre: 'Andrea Michelle Delgado Rodríguez', unidad: 'DIRECCIÓN GENERAL DE TRANSPARENCIA Y GOBIERNO ABIERTO', puesto: 'Jefa de Departamento de Acceso a la Información ', correo: 'andrea.delgado', extension: '1384' },
         
         
-        { id: 43, nombre: 'Andrik Gilberto García Sánchez', unidad: 'DIRECCIÓN GENERAL DE TRANSPARENCIA Y GOBIERNO ABIERTO', puesto: 'Subdirector de Gobierno Abierto ', correo: 'andrik.garcia', extension: '1305' },
+        { id: 44, nombre: 'Alejandra Reyes Salas', unidad: 'DIRECCIÓN GENERAL DE TRANSPARENCIA Y GOBIERNO ABIERTO', puesto: 'alejandra.salas', correo: 'karina.perez', extension: '1581' },
         
-        { id: 44, nombre: 'Juan Antonio Guzmán Oliva', unidad: 'DIRECCIÓN GENERAL DE TRANSPARENCIA Y GOBIERNO ABIERTO', puesto: 'Jefe de Departamento', correo: 'juan.guzman', extension: '1376' },
         
-        { id: 45, nombre: 'Enrique Zapotitla Salazar', unidad: 'DIRECCIÓN GENERAL DE TRANSPARENCIA Y GOBIERNO ABIERTO', puesto: 'Enlace', correo: 'enrique.zapotitla', extension: '1537' },
+        { id: 45, nombre: 'Andrik Gilberto García Sánchez', unidad: 'DIRECCIÓN GENERAL DE TRANSPARENCIA Y GOBIERNO ABIERTO', puesto: 'Subdirector de Gobierno Abierto ', correo: 'andrik.garcia', extension: '1305' },
         
-        { id: 46, nombre: 'Miguel Angel Villegas Arellanos', unidad: 'DIRECCIÓN GENERAL DE TRANSPARENCIA Y GOBIERNO ABIERTO', puesto: 'Jefe de Departamento de Datos Abiertos', correo: 'miguel.villegas', extension: '1139' },
+        { id: 46, nombre: 'Juan Antonio Guzmán Oliva', unidad: 'DIRECCIÓN GENERAL DE TRANSPARENCIA Y GOBIERNO ABIERTO', puesto: 'Jefe de Departamento', correo: 'juan.guzman', extension: '1376' },
         
-        { id: 47, nombre: 'Javier Ortiz Hernández', unidad: 'DIRECCIÓN GENERAL DE TRANSPARENCIA Y GOBIERNO ABIERTO', puesto: 'Auxiliar de Departamento', correo: 'jortiz', extension: '1402' },
+        { id: 47, nombre: 'Enrique Zapotitla Salazar', unidad: 'DIRECCIÓN GENERAL DE TRANSPARENCIA Y GOBIERNO ABIERTO', puesto: 'Enlace', correo: 'enrique.zapotitla', extension: '1537' },
         
-        { id: 48, nombre: 'Julieta Lizbeth Salinas Ruiz', unidad: 'DIRECCIÓN GENERAL DE TRANSPARENCIA Y GOBIERNO ABIERTO', puesto: 'Auxiliar de  Departamento', correo: 'lizbeth.salinas', extension: '1149' },
+        { id: 48, nombre: 'Miguel Angel Villegas Arellanos', unidad: 'DIRECCIÓN GENERAL DE TRANSPARENCIA Y GOBIERNO ABIERTO', puesto: 'Jefe de Departamento de Datos Abiertos', correo: 'miguel.villegas', extension: '1139' },
         
-        { id: 49, nombre: 'Federico René Sánchez Delgado', unidad: 'DIRECCIÓN GENERAL DE TRANSPARENCIA Y GOBIERNO ABIERTO', puesto: 'Auxiliar de Departamento', correo: 'federico.sanchez', extension: '1543' },
+        { id: 49, nombre: 'Javier Ortiz Hernández', unidad: 'DIRECCIÓN GENERAL DE TRANSPARENCIA Y GOBIERNO ABIERTO', puesto: 'Auxiliar de Departamento', correo: 'jortiz', extension: '1402' },
         
-        { id: 50, nombre: 'Brenda Grisselle Zatarain Ramírez', unidad: 'DIRECCIÓN GENERAL DE TRANSPARENCIA Y GOBIERNO ABIERTO', puesto: 'Jefa de Departamento', correo: 'brenda.zatarain', extension: '1192' },
+        { id: 50, nombre: 'Julieta Lizbeth Salinas Ruiz', unidad: 'DIRECCIÓN GENERAL DE TRANSPARENCIA Y GOBIERNO ABIERTO', puesto: 'Auxiliar de  Departamento', correo: 'lizbeth.salinas', extension: '1149' },
         
-        { id: 51, nombre: 'Lethzae Guadalupe Rojas Anievas', unidad: 'DIRECCIÓN GENERAL DE TRANSPARENCIA Y GOBIERNO ABIERTO', puesto: 'Subdirectora de área', correo: 'lethzae.rojas', extension: '1441' },
+        { id: 51, nombre: 'Federico René Sánchez Delgado', unidad: 'DIRECCIÓN GENERAL DE TRANSPARENCIA Y GOBIERNO ABIERTO', puesto: 'Auxiliar de Departamento', correo: 'federico.sanchez', extension: '1543' },
         
-        { id: 52, nombre: 'Cristina Begné Guerra', unidad: 'DIRECCIÓN GENERAL DE TRANSPARENCIA Y GOBIERNO ABIERTO', puesto: 'Subdirectora de área', correo: 'cristina.begne', extension: '1451' },
+        { id: 52, nombre: 'Brenda Grisselle Zatarain Ramírez', unidad: 'DIRECCIÓN GENERAL DE TRANSPARENCIA Y GOBIERNO ABIERTO', puesto: 'Jefa de Departamento', correo: 'brenda.zatarain', extension: '1192' },
         
-        { id: 53, nombre: 'Raúl Galicia Lira', unidad: 'DIRECCIÓN GENERAL DE TRANSPARENCIA Y GOBIERNO ABIERTO', puesto: 'Subdirector de área', correo: 'raul.galicia', extension: '1104' },
+        { id: 53, nombre: 'Lethzae Guadalupe Rojas Anievas', unidad: 'DIRECCIÓN GENERAL DE TRANSPARENCIA Y GOBIERNO ABIERTO', puesto: 'Subdirectora de área', correo: 'lethzae.rojas', extension: '1441' },
+        
+        { id: 54, nombre: 'Cristina Begné Guerra', unidad: 'DIRECCIÓN GENERAL DE TRANSPARENCIA Y GOBIERNO ABIERTO', puesto: 'Subdirectora de área', correo: 'cristina.begne', extension: '1451' },
+        
+        { id: 55, nombre: 'Raúl Galicia Lira', unidad: 'DIRECCIÓN GENERAL DE TRANSPARENCIA Y GOBIERNO ABIERTO', puesto: 'Subdirector de área', correo: 'raul.galicia', extension: '1104' },
         
         //DIRECCIÓN GENERAL DEL CENTRO DE ESTUDIOS PARA PREVENIR LA CORRUPCIÓN E IMPUNIDAD
         
         
-        { id: 54, nombre: 'Gibran Alberto Briones Acosta', unidad: 'DIRECCIÓN GENERAL DEL CENTRO DE ESTUDIOS PARA PREVENIR LA CORRUPCIÓN E IMPUNIDAD', puesto: 'Director General del Centro de Estudios para Prevenir la Corrupción e Impunidad ', correo: 'gibran.briones', extension: '4046' },
+        { id: 56, nombre: 'Gibran Alberto Briones Acosta', unidad: 'DIRECCIÓN GENERAL DEL CENTRO DE ESTUDIOS PARA PREVENIR LA CORRUPCIÓN E IMPUNIDAD', puesto: 'Director General del Centro de Estudios para Prevenir la Corrupción e Impunidad ', correo: 'gibran.briones', extension: '4046' },
         
-        { id: 55, nombre: 'Ernesto Eduardo Morales Maldonado', unidad: 'DIRECCIÓN GENERAL DEL CENTRO DE ESTUDIOS PARA PREVENIR LA CORRUPCIÓN E IMPUNIDAD', puesto: 'Director de Evaluación Integral de Formación y Capacitación', correo: 'ernesto.morales', extension: '1541' },
+        { id: 57, nombre: 'Ernesto Eduardo Morales Maldonado', unidad: 'DIRECCIÓN GENERAL DEL CENTRO DE ESTUDIOS PARA PREVENIR LA CORRUPCIÓN E IMPUNIDAD', puesto: 'Director de Evaluación Integral de Formación y Capacitación', correo: 'ernesto.morales', extension: '1541' },
         
-        { id: 51, nombre: 'Amanda Judith Monter Gamiño', unidad: 'DIRECCIÓN GENERAL DEL CENTRO DE ESTUDIOS PARA PREVENIR LA CORRUPCIÓN E IMPUNIDAD', puesto: 'Directora de Formación y Capacitación Institucional', correo: 'amanda.monter', extension: '1534' },
+        { id: 58, nombre: 'Amanda Judith Monter Gamiño', unidad: 'DIRECCIÓN GENERAL DEL CENTRO DE ESTUDIOS PARA PREVENIR LA CORRUPCIÓN E IMPUNIDAD', puesto: 'Directora de Formación y Capacitación Institucional', correo: 'amanda.monter', extension: '1534' },
         
-        { id: 52, nombre: 'Mayda Areli Angel Sánchez', unidad: 'DIRECCIÓN GENERAL DEL CENTRO DE ESTUDIOS PARA PREVENIR LA CORRUPCIÓN E IMPUNIDAD', puesto: 'Subdirectora de Formación y Capacitación Institucional A', correo: 'areli.angel', extension: '4351' },
+        { id: 59, nombre: 'Mayda Areli Angel Sánchez', unidad: 'DIRECCIÓN GENERAL DEL CENTRO DE ESTUDIOS PARA PREVENIR LA CORRUPCIÓN E IMPUNIDAD', puesto: 'Subdirectora de Formación y Capacitación Institucional A', correo: 'areli.angel', extension: '4351' },
         
-        { id: 53, nombre: 'Rocio Juárez Méndez', unidad: 'DIRECCIÓN GENERAL DEL CENTRO DE ESTUDIOS PARA PREVENIR LA CORRUPCIÓN E IMPUNIDAD', puesto: 'Subdirectora de Evaluación Integral de Formación y Capacitación A  ', correo: 'rocio.juarez', extension: '1542' },
+        { id: 60, nombre: 'Rocio Juárez Méndez', unidad: 'DIRECCIÓN GENERAL DEL CENTRO DE ESTUDIOS PARA PREVENIR LA CORRUPCIÓN E IMPUNIDAD', puesto: 'Subdirectora de Evaluación Integral de Formación y Capacitación A  ', correo: 'rocio.juarez', extension: '1542' },
         
-        { id: 54, nombre: 'Zazil América Torres González', unidad: 'DIRECCIÓN GENERAL DEL CENTRO DE ESTUDIOS PARA PREVENIR LA CORRUPCIÓN E IMPUNIDAD', puesto: 'Subdirectora de Innovación para el Aprendizaje A ', correo: 'zazil.torres', extension: '4349' },
+        { id: 61, nombre: 'Zazil América Torres González', unidad: 'DIRECCIÓN GENERAL DEL CENTRO DE ESTUDIOS PARA PREVENIR LA CORRUPCIÓN E IMPUNIDAD', puesto: 'Subdirectora de Innovación para el Aprendizaje A ', correo: 'zazil.torres', extension: '4349' },
         
-        { id: 55, nombre: 'Juana Iris Fragoso Barreto', unidad: 'DIRECCIÓN GENERAL DEL CENTRO DE ESTUDIOS PARA PREVENIR LA CORRUPCIÓN E IMPUNIDAD', puesto: 'juana.fragoso', correo: 'Subdirectora de los Sistemas de Información de los Sistemas Anticorrupción y Fiscalización', extension: '1352' },
+        { id: 62, nombre: 'Juana Iris Fragoso Barreto', unidad: 'DIRECCIÓN GENERAL DEL CENTRO DE ESTUDIOS PARA PREVENIR LA CORRUPCIÓN E IMPUNIDAD', puesto: 'juana.fragoso', correo: 'Subdirectora de los Sistemas de Información de los Sistemas Anticorrupción y Fiscalización', extension: '1352' },
         
-        { id: 56, nombre: 'Cuauhtémoc Jaime Merino Gallegos', unidad: 'DIRECCIÓN GENERAL DEL CENTRO DE ESTUDIOS PARA PREVENIR LA CORRUPCIÓN E IMPUNIDAD', puesto: 'Subdirector de Formación y Capacitación Institucional B ', correo: 'cuauhtemoc.merino', extension: '1106' },
+        { id: 63, nombre: 'Cuauhtémoc Jaime Merino Gallegos', unidad: 'DIRECCIÓN GENERAL DEL CENTRO DE ESTUDIOS PARA PREVENIR LA CORRUPCIÓN E IMPUNIDAD', puesto: 'Subdirector de Formación y Capacitación Institucional B ', correo: 'cuauhtemoc.merino', extension: '1106' },
         
-        { id: 57, nombre: 'Nancy Laura Contreras García', unidad: 'DIRECCIÓN GENERAL DEL CENTRO DE ESTUDIOS PARA PREVENIR LA CORRUPCIÓN E IMPUNIDAD', puesto: 'Subdirectora de Evaluación Integral de Formación y Capacitación B  ', correo: 'nancy.contreras', extension: '4417' },
+        { id: 64, nombre: 'Nancy Laura Contreras García', unidad: 'DIRECCIÓN GENERAL DEL CENTRO DE ESTUDIOS PARA PREVENIR LA CORRUPCIÓN E IMPUNIDAD', puesto: 'Subdirectora de Evaluación Integral de Formación y Capacitación B  ', correo: 'nancy.contreras', extension: '4417' },
         
-        { id: 58, nombre: 'Efraín Madrigal García', unidad: 'DIRECCIÓN GENERAL DEL CENTRO DE ESTUDIOS PARA PREVENIR LA CORRUPCIÓN E IMPUNIDAD', puesto: 'Subdirector de área', correo: 'efrain.madrigal', extension: '1207' },
+        { id: 65, nombre: 'Efraín Madrigal García', unidad: 'DIRECCIÓN GENERAL DEL CENTRO DE ESTUDIOS PARA PREVENIR LA CORRUPCIÓN E IMPUNIDAD', puesto: 'Subdirector de área', correo: 'efrain.madrigal', extension: '1207' },
         
-        { id: 59, nombre: 'Irvin Iván Vieyra Córdoba', unidad: 'DIRECCIÓN GENERAL DEL CENTRO DE ESTUDIOS PARA PREVENIR LA CORRUPCIÓN E IMPUNIDAD', puesto: 'Jefe de Departamento de Mecanismos Anticorrupción  ', correo: 'irvin.vieyra', extension: '4418' }
+        { id: 66, nombre: 'Irvin Iván Vieyra Córdoba', unidad: 'DIRECCIÓN GENERAL DEL CENTRO DE ESTUDIOS PARA PREVENIR LA CORRUPCIÓN E IMPUNIDAD', puesto: 'Jefe de Departamento de Mecanismos Anticorrupción  ', correo: 'irvin.vieyra', extension: '4418' }
     ];
 
     const rowsPerPage = 7;
