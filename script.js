@@ -33,7 +33,7 @@ document.addEventListener("DOMContentLoaded", function() {
         
         { id: 2, nombre: 'Pedro Palacios Fernández', unidad: 'UNIDAD DE POLÍTICAS ANTICORRUPCIÓN', puesto: 'PENDIENTE', correo: 'pedro.palacios', extension: 'PENDIENTE' },
         
-        { id: 3, nombre: 'Mario Flores Padilla', puesto: 'PENDIENTE', correo: 'PENDIENTE', extension: 'PENDIENTE' },
+        { id: 3, nombre: 'Mario Flores Padilla', unidad: 'UNIDAD DE POLÍTICAS ANTICORRUPCIÓN', puesto: 'PENDIENTE', correo: 'PENDIENTE', extension: 'PENDIENTE' },
         
         { id: 4, nombre: 'Julieta de la Vega Luna', unidad: 'UNIDAD DE POLÍTICAS ANTICORRUPCIÓN', puesto: 'Directora de Vinculación Interinstitucional', correo: 'julieta.delavega', extension: '1022' },
         
